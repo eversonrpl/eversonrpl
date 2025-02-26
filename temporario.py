@@ -9,5 +9,4 @@ st.selectbox(
 st.multiselect(
     "Qual é a sua cor favorita?",
     ["verde", "amarelo", "vermelho", "azul"],
-    ["amarelo", "vermelho"],
 st.button("botão salvar")
