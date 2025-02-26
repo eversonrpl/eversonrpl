@@ -10,4 +10,8 @@ st.multiselect(
     "Qual é a sua cor favorita?",
     ["verde", "amarelo", "vermelho", "azul"],
 )
+agree = st.checkbox("I agree")
+
+if agree:
+    st.write("Great!")
 st.button("botão salvar")
